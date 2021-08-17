@@ -2,8 +2,8 @@ import React from 'react';
 //route
 import { Link } from 'react-router-dom';
 //image
-import RMDBLogo from '../../images/react-movie-logo.png';
-import TMDBLogo from '../../images/tmdb_logo.jfif';
+import RMDBLogo from '../../images/react-movie-logo.webp';
+import TMDBLogo from '../../images/tmdb_logo.jpg';
 
 import { Wrapper, Content, LogoImg, TMDBLogoImg } from './Header.styles';
 
