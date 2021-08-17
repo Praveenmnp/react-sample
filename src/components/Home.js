@@ -1,7 +1,5 @@
 import React from 'react';
 
-//API
-import API from '../API'
 
 //Config
 
@@ -21,7 +19,7 @@ import Button from './Button';
 import Noimg from '../images/no_image.jpg'
 
 const Home = () => {
-    const {state,loading,error,SearchTerm,setSearchTerm,SetIsLoadingMore}= useHomeFetch()
+    const {state,loading,SearchTerm,setSearchTerm,SetIsLoadingMore}= useHomeFetch()
     return (
         <>
         {!SearchTerm&& state.results[0]?
